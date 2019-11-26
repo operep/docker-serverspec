@@ -13,10 +13,10 @@ $ docker run --rm --name integration-test \
 ➭ -v /var/run/docker.sock:/var/run/docker.sock \
 ➭ -v $(pwd):/docker-serverspec \
 ➭ -w /docker-serverspec \
-➭ jadametz/serverspec \
+➭ oleksandrp/serverspec \
 ➭ spec/
 ...
 
-Finished in 0.97621 seconds (files took 0.54975 seconds to load)
-3 examples, 0 failures
+Finished in 1.97621 seconds (files took 0.54975 seconds to load)
+10 examples, 0 failures
 ```
